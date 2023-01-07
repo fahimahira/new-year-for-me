@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header banner styles */
+.banner {
+    background: url(images/banner/banner3.png);
+    width: 100vw;
+    height: 70vh;
+    padding: 5%;
+    background-repeat: none;
+    background-image: cover;
+
+}
+
+.banner-font {
+    font-weight: 700;
+    font-size: 65px;
+    margin-left: 845px;
+    margin-right: 230px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 870px;
+    margin-right: 230px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.primary-button {
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    margin-top: 30px;
+    margin-left: 1300px;
+    margin-right: 0%;
+    margin-bottom: 150px;
+    background: #FFFFFF;
+
+}
+
+/* 2nd Section Styles */
+
+.person-content {
+    display: flex;
+}
+
+.only-content {
+    margin-left: 50px;
+}
+
+.person {
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+.person-title {
+    margin-top: 370px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.person-description {
+    margin-top: 24px;
+    margin-right: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: -40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style: none;
+}
+
+li:before {
+    content: "\2713";
+    color: #16D887;
+}
+
+/* Skill Styles */
+.skill-content {
+    display: flex;
+    gap: 60px;
+    margin-left: 230px;
+}
+
+.plan {
+    margin-top: 125px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.skill {}
+
+.skill-name {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.skill-subname {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* background linear figure styles */
+.bg-image {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+
+.image-text {
+    padding: 55px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.call-button {
+    margin-left: 60px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background: #FFFFFF;
+}
+
+/* Footer Styles */
+
+footer {
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+}
+
+.footer-contant {
+    margin-top: 40px;
+    display: flex;
+    padding: 130px 230px;
+}
+
+.contact-name {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 350px;
+    color: #FFFFFF;
+}
+
+.email {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.number {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.subscribe-text {
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.box {
+    border: 0;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.subscribe-button {
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+
+}
