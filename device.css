@@ -1,0 +1,75 @@
+@media screen and (max-width: 576px) {
+    body {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .person-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .person {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .only-content {
+        width: 100%;
+        padding: 8px;
+    }
+
+
+    .person-title {
+
+        padding: 5px;
+    }
+
+    .person-description {
+        padding: 5px;
+    }
+
+    .skill-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+
+    }
+
+    .plan {
+        margin-top: 125px;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+        text-align: center;
+        border: 1px solid chocolate;
+    }
+
+    .skill{
+        border: 1px solid chocolate;
+    }
+
+    .footer-contant {
+        flex-direction: column;
+    }
+    .box {
+        border: 0;
+        width: 76%;
+        padding: 20px 20px;
+    }
+
+    .bg-image {
+        margin: 0 80px;
+    }
+
+    .banner {
+        background: url(images/banner/banner3.png);
+        width: 100%;
+        /* height: 100vh; */
+        /* background-repeat: none;
+        background-image: cover; */
+        height: auto;
+    }
+}
